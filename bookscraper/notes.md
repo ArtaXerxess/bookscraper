@@ -1,7 +1,5 @@
 # Notes
 
-Target: `books.toscrape.com`
-
 Concepts: [`css selectors, xpath`](https://docs.scrapy.org/en/latest/topics/selectors.html) 
 
 Using ipython shell , and venv as recommended in doccumentation
@@ -15,6 +13,10 @@ Write Code : [Spider.py](spiders\bookspider.py)
 Crawl and Save output:
 
 >scrapy crawl bookspider -o books.csv
+
+or
+
+>scrapy crawl bookspider -o books.json
 
 Maybe Scrapy is ez... 
 
